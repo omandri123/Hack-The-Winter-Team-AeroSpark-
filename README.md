@@ -153,9 +153,13 @@ ________________________________________
 
 
 # What we are working on so far :
-We have developed our blockchain code, which is provided above 
+We have developed our blockchain code using python, which is provided above in the __block_chain.py__ file.
+Now, we are working on the UI of the BID registeration portal. We will use __Flutter__ to make our UI. So we can just use a single code-base for different platforms and devices.
+And we are also working on connecting our BID network with IOT system, so that user can use a RFID card for identification whenever they need.
 
+In Second round, we will complete the UI as well as connect an IOT system for BID identification.
 
+###Thank You
 
 
 
