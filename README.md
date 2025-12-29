@@ -21,6 +21,8 @@ The Supreme Court of India has clarified that Aadhaar cannot be considered a def
 
 # What is BID (Blockchain Identification) ?
 
+To address the issues of data privacy, forgery, and unreliable identity verification, the proposed system introduces a __Blockchain-based Identity Verification Platform (BID)__ — a secure, decentralized, and tamper-proof digital identity network. The BID platform ensures that identity verification can occur without exposing or storing sensitive personal data in any centralized database.
+<br /><br />The system functions as a trust layer between individuals and organizations (such as hotels, KYC agencies, or online portals) that require identity validation. Instead of repeatedly submitting personal documents like Aadhaar or PAN cards, users can register once on the BID platform and receive a unique Blockchain ID (BID) linked to their verified credentials.
 
 
 
