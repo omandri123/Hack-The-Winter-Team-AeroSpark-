@@ -157,7 +157,7 @@ We have developed our blockchain code using python, which is provided above in t
 Now, we are working on the UI of the BID registeration portal. We will use __Flutter__ to make our UI. So we can just use a single code-base for different platforms and devices.
 And we are also working on connecting our BID network with IOT system, so that user can use a RFID card for identification whenever they need.
 
-In Second round, we will complete the UI as well as connect an IOT system for BID identification.
+### Second round details is in **Slingshot_Round_2.md** file
 
 ### Thank You
 
