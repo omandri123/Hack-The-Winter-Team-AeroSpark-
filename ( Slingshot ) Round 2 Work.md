@@ -171,7 +171,8 @@ The following fields are collected:
 This design reflects KYC-style identity collection systems used by banks and government portals.
 
 ## 5. Document Upload Interface
-5.1 File Selection Mechanism
+### File Selection Mechanism
+<img width="1248" height="642" alt="image" src="https://github.com/user-attachments/assets/e80d2b8a-86e6-4b0f-9d18-c52ab3cdbcb3" />
 
 The UI includes a dedicated section for uploading verification documents in PDF format:
 
@@ -223,6 +224,8 @@ Although the files are not yet sent to the blockchain, the UI is architecturally
 4. This improves transparency and user confidence during registration.
 
 ## 7. Blockchain Submission Workflow
+<img width="892" height="245" alt="image" src="https://github.com/user-attachments/assets/0fc8bea2-d65a-4f4d-aeee-48b3e64337a7" />
+
 ### 1. Data Transmission
 
 1. When the user clicks “Submit to Blockchain”:
@@ -245,6 +248,7 @@ Although the files are not yet sent to the blockchain, the UI is architecturally
 
 ## 8. Blockchain ID (BID) Display
 ### 1. Dialog-Based Confirmation
+<img width="780" height="470" alt="image" src="https://github.com/user-attachments/assets/1d3687da-c420-470f-aeb9-96cd46e0b934" />
 
 Upon successful submission:
 
