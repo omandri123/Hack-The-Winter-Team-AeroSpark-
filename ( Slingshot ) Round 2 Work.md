@@ -1,7 +1,10 @@
 # SlingShot Round 2
+# WORK SUBMITTION
+### All the code and Instruction we will present, is uploaded in **_BID PROJECT CODE_** DIRECTORY.
 ## What we have created ?
 We have built a Blockchain-Based Identification (BID) system that allows users to securely register their personal identity information and receive a unique, immutable Blockchain ID (BID).
 This BID acts as a digital proof of identity that can be verified using blockchain principles.
+<img width="780" height="470" alt="image" src="https://github.com/user-attachments/assets/1d3687da-c420-470f-aeb9-96cd46e0b934" />
 
 ### Our system consists of two tightly integrated components:
 
@@ -13,7 +16,7 @@ This BID acts as a digital proof of identity that can be verified using blockcha
 The backend of the system is implemented using Python with the Flask framework and serves as the core blockchain engine of the application. It includes a custom-built blockchain structure that creates and manages blocks containing user identity data. Each block stores the submitted data, a cryptographic SHA-256 hash, the hash of the previous block, and a timestamp, thereby forming an immutable chain of records. A Genesis Block is created at initialization to anchor the blockchain. The backend exposes RESTful APIs that allow the frontend to add new blocks and retrieve the complete blockchain for verification and auditing purposes. When identity data is received from the UI, the backend generates a unique hash that acts as a Blockchain Identification Number (BID), ensuring data integrity, tamper detection, and uniqueness. Overall, the backend blockchain module provides secure storage, cryptographic linking, and transparent access to identity records while remaining lightweight and suitable for educational and prototype-level implementations.
 
 
-#### 1. Custom Blockchain Architecture
+### 1. Custom Blockchain Architecture
 <img width="1131" height="753" alt="image" src="https://github.com/user-attachments/assets/f0260719-462f-411b-87df-0571a6f111ba" />
 
 We implemented a custom blockchain from scratch, without using third-party blockchain frameworks.
@@ -301,3 +304,5 @@ This makes the system scalable and platform-independent.
 4. No blockchain logic is exposed to the user directly
 
 5. The UI acts as a secure gateway, isolating users from backend complexity.
+
+
