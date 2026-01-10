@@ -36,7 +36,36 @@ Before running the project, ensure the following software is installed:
 
 2. Android Studio
 
-## 2. Backend Setup (Blockchain Server)
+
+## 2. Frontend Setup (Flutter Application)
+Create a flutter Project using following code
+### >>> create flutter bid
+
+### Step 1: Copy the lib folder and replace the lib folder from the project you created.
+<img width="817" height="680" alt="image" src="https://github.com/user-attachments/assets/7cefd1f6-f244-4e8a-98bb-1797a762ed63" />
+
+### Step 2: Navigate to Flutter Project Root
+
+Ensure the uploaded lib folder is placed inside a valid Flutter project structure.
+
+### Step 3: Install Dependencies
+
+Run the following command in the project root:
+
+1. flutter pub get
+
+
+This installs required packages such as:
+
+1. http
+
+2. file_picker
+
+3. qr_flutter
+
+4. image_picker_windows
+
+## 3. Backend Setup (Blockchain Server)
 ### Step 1: Navigate to Backend File
 
 1. Locate the Python backend file inside the lib folder:
@@ -64,27 +93,6 @@ http://127.0.0.1:5000
 
 ⚠️ Keep this server running while using the Flutter app.
 
-## 3. Frontend Setup (Flutter Application)
-### Step 1: Navigate to Flutter Project Root
-
-Ensure the uploaded lib folder is placed inside a valid Flutter project structure.
-
-### Step 2: Install Dependencies
-
-Run the following command in the project root:
-
-1. flutter pub get
-
-
-This installs required packages such as:
-
-1. http
-
-2. file_picker
-
-3. qr_flutter
-
-4. image_picker_windows
 
 ### Step 3: Run the Flutter Application
 
